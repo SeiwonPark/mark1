@@ -65,8 +65,9 @@ const config = {
           },
           {
             href: "https://github.com/SeiwonPark/mark1",
-            label: "GitHub",
             position: "right",
+            className: "nav-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
