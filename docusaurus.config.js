@@ -3,12 +3,13 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+require("dotenv").config();
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Mark1",
   tagline: "Seiwon Park's Logs",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://www.seiwon.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -97,6 +98,15 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        appId: process.env.REACT_APP_ALGOLIA_APP_ID,
+        apiKey: "bc1e25ba07636c221f53391671815c1c",
+        indexName: "index",
+        contextualSearch: true,
+        externalUrlRegex: "google\\.com|naver\\.com|tistory\\.com",
+        searchParameters: {},
+        searchPagePath: "search",
       },
     }),
   /**
