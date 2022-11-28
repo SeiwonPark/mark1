@@ -27,17 +27,19 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/logs",
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/SeiwonPark/mark1/edit/main/",
         },
         blog: {
           showReadingTime: true,
           routeBasePath: "/posts",
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/SeiwonPark/mark1/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleAnalytics: {
+          trackingID: process.env.REACT_APP_RACKING_ID,
+          anonymizeIP: true,
         },
       }),
     ],
