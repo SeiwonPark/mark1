@@ -41,6 +41,10 @@ const config = {
           trackingID: process.env.REACT_APP_TRACKING_ID,
           anonymizeIP: true,
         },
+        gtag: {
+          trackingID: process.env.REACT_APP_TRACKING_ID,
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
