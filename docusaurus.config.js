@@ -37,10 +37,6 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        googleAnalytics: {
-          trackingID: process.env.REACT_APP_TRACKING_ID,
-          anonymizeIP: true,
-        },
       }),
     ],
   ],
@@ -109,6 +105,10 @@ const config = {
         // externalUrlRegex: "google\\.com|naver\\.com|tistory\\.com",
         searchParameters: {},
         searchPagePath: "search",
+      },
+      googleAnalytics: {
+        trackingID: process.env.REACT_APP_TRACKING_ID,
+        anonymizeIP: true,
       },
     }),
   /**
