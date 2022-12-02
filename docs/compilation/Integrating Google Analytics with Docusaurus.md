@@ -11,7 +11,7 @@ tags:
 ## TL;DR
 
 - [**Google Analytics 4**](https://blog.google/products/marketingplatform/analytics/prepare-for-future-with-google-analytics-4/) was introduced to meet user's needs for modern complex, multi-platform
-- Previous Google Analytics, [**Universal Analytics** will begin sunsetting on July 1, 2023](https://support.google.com/analytics/answer/11583528)
+- Previous Google Analytics, [**Universal Analytics**, will begin sunsetting on July 1, 2023](https://support.google.com/analytics/answer/11583528)
 - Migrate from `googleAnalytics: {}` to `gtag: {}`
 
 <br/>
@@ -20,9 +20,9 @@ tags:
 
 ![](./assets/2022-12-01-01.png)
 
-Previous Google Analytics, Universal Analytics will stop processing data on July 1, 2023. So We need to prepare for the migration.
+Previous Google Analytics, Universal Analytics, will stop processing data on July 1, 2023. So We need to prepare for the migration.
 
-## So, how to migrate from GA4?
+## So, how to migrate to GA4?
 
 ![](./assets/2022-12-01-02.png)
 
